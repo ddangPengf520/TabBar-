@@ -13,6 +13,7 @@
 		2D83DB3E1C7AEBA60053FDA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D83DB3C1C7AEBA60053FDA7 /* Main.storyboard */; };
 		2D83DB401C7AEBA60053FDA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D83DB3F1C7AEBA60053FDA7 /* Assets.xcassets */; };
 		2D83DB431C7AEBA60053FDA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D83DB411C7AEBA60053FDA7 /* LaunchScreen.storyboard */; };
+		2D83DB4C1C7AEBD10053FDA7 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D83DB4B1C7AEBD10053FDA7 /* MainTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		2D83DB3F1C7AEBA60053FDA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D83DB421C7AEBA60053FDA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D83DB441C7AEBA60053FDA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D83DB4A1C7AEBD10053FDA7 /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		2D83DB4B1C7AEBD10053FDA7 /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				2D83DB371C7AEBA60053FDA7 /* AppDelegate.m */,
 				2D83DB391C7AEBA60053FDA7 /* ViewController.h */,
 				2D83DB3A1C7AEBA60053FDA7 /* ViewController.m */,
+				2D83DB4A1C7AEBD10053FDA7 /* MainTabBarController.h */,
+				2D83DB4B1C7AEBD10053FDA7 /* MainTabBarController.m */,
 				2D83DB3C1C7AEBA60053FDA7 /* Main.storyboard */,
 				2D83DB3F1C7AEBA60053FDA7 /* Assets.xcassets */,
 				2D83DB411C7AEBA60053FDA7 /* LaunchScreen.storyboard */,
@@ -152,6 +157,7 @@
 			files = (
 				2D83DB3B1C7AEBA60053FDA7 /* ViewController.m in Sources */,
 				2D83DB381C7AEBA60053FDA7 /* AppDelegate.m in Sources */,
+				2D83DB4C1C7AEBD10053FDA7 /* MainTabBarController.m in Sources */,
 				2D83DB351C7AEBA60053FDA7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,7 +272,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "TabBar上拉隐藏下拉显示/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "NttData.TabBar--------";
+				PRODUCT_BUNDLE_IDENTIFIER = pengfei.dang;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -277,7 +283,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "TabBar上拉隐藏下拉显示/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "NttData.TabBar--------";
+				PRODUCT_BUNDLE_IDENTIFIER = pengfei.dang;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -301,6 +307,7 @@
 				2D83DB491C7AEBA60053FDA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
